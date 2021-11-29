@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // taskTwo();
-        // taskThree();
+         //taskTwo();
+        //taskThree();
         // taskFour();
 
 
@@ -24,31 +24,23 @@ public class Main {
         int [] myArray = {1,15,25,18,31};
 
         for (int i = 0; i < firstArray.length; i++) {
-
-            if (i == firstArray.length - 1){
-                System.out.print(firstArray[i]);
-            }else {
-                System.out.print(firstArray[i] + ",");
+            System.out.print(firstArray[i]);
+            if (i < firstArray.length-1){
+                System.out.print(",");
             }
-
         }
-        System.out.println(" ");
-
+        System.out.println("");
         for (int i = 0; i < secondArray.length; i++) {
-
-            if (i == secondArray.length - 1){
-                System.out.print(secondArray[i]);
-            }else {
-                System.out.print(secondArray[i] + ",");
+            System.out.print(secondArray[i]);
+            if (i < secondArray.length-1) {
+                System.out.print(",");
             }
         }
-        System.out.println(" ");
+        System.out.println("");
         for (int i = 0; i < myArray.length; i++) {
-
-            if (i == myArray.length - 1){
-                System.out.print(myArray[i]);
-            }else {
-                System.out.print(myArray[i] + ",");
+            System.out.print(myArray[i]);
+            if (i < myArray.length - 1){
+                System.out.print(",");
             }
         }
 
@@ -62,31 +54,24 @@ public class Main {
 
 
         for (int i = firstArray.length-1; i >= 0; i--) {
-
-            if (i == 0){
-                System.out.print(firstArray[i]);
-            }else {
-                System.out.print(firstArray[i] + ",");
+            System.out.print(firstArray[i]);
+            if (i != 0){
+                System.out.print(",");
             }
-
         }
         System.out.println(" ");
 
         for (int i = secondArray.length-1; i >=0 ; i--) {
-
-            if (i == 0){
-                System.out.print(secondArray[i]);
-            }else {
-                System.out.print(secondArray[i] + ",");
+            System.out.print(secondArray[i]);
+            if (i != 0){
+                System.out.print(",");
             }
         }
         System.out.println(" ");
         for (int i = myArray.length-1; i >=0; i--) {
-
-            if (i == 0){
-                System.out.print(myArray[i]);
-            }else {
-                System.out.print(myArray[i] + ",");
+            System.out.print(myArray[i]);
+            if (i != 0){
+                System.out.print(",");
             }
         }
 
